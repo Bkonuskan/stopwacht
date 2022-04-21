@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: rgb(121, 15, 122);
+  background: linear-gradient(
+    137deg,
+    rgba(121, 15, 122, 1) 22%,
+    rgba(200, 15, 15, 1) 51%,
+    rgba(212, 103, 0, 1) 74%
+  );
+  margin-bottom: 1em;
+  color:white;
+}
+#timeFormat {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+.time_btn {
+  text-align: center;
+}
+.title{
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 1em;
+    
+
+}
+button {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 100%;
+  border: none;
+  width: 70px;
+  height: 70px;
+}
+#start:focus,
+#stop:focus,
+#reset:focus {
+  background-color: rgb(220, 192, 34);
+}
+#start {
+  background-color: rgb(219, 151, 69);
+  cursor: pointer;
+}
+#stop{
+    background-color: aquamarine;
+}
+#reset{
+    background-color:rgb(16, 234, 92);
+}
